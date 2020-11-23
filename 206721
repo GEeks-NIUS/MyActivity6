@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	  <title>Activity 6</title>
+	     <style>
+
+		div{
+		    background-image: url("/Activity6/img/bcg.png");
+			background-repeat:repeat;
+			background-size:2120px 700px;
+			}
+	
+	    table.MainTable{
+		    width:70%;
+	        margin:auto;        
+	        background-image:linear-gradient(to top right,green,red);
+            margin-bottom:50px;
+            }
+	
+		table.MainTable,td.a{
+			border:5px solid red;
+	        border-collapse:collapse;
+			padding:30px;	     									
+			font-size:150%;
+			color:white;
+		    
+			}
+    
+	    td.a{
+		    text-indent:50px;
+		    font-family:times new roman;
+		    }
+	
+		 th.thClass{
+	        text-align:center;
+	     	font-family:extFont;
+			font-size:200%;
+	        background-color:orange;
+		    color:black;
+			}
+	
+		h1{
+	    	background-image:linear-gradient(to bottom,red,orange);
+		    font-size:400%;
+	        font-family:extFont;
+	        padding-bottom:20px;
+            padding-top:20px;
+            margin-bottom:100px;
+            }
+
+	   @font-face{
+	        font-family:extFont;
+	        src:url(fontChange.ttf);
+	        }
+		#Act6{
+            background-color:#66ff99;
+            font-size:50px;
+	        }			
+	
+		#Navigation{
+             border:10px solid black;
+             border-collapse:collapse;
+             width:100%;
+             background-color:gray;
+             }
+			
+        td.tdClass{
+              font-size:300%;
+              border:10px solid black;
+              text-align:center;
+              background-color:#ff4d4d;
+              font-family:times new roman;
+              }
+</style>
+	</head>
+	
+	<body>
+
+<div>
+ 
+  <table id="Navigation">
+ <tr>
+<td class="tdClass" colspan="4">NAVIGATION</td>
+  </tr> 
+    <tr>
+<th id="Act6" rowspan="2">You are in My Activity No. 6</th>
+	<td class="tdClass" colspan="3">Jump to ...</td>
+</tr>
+ <tr>
+   <td class="tdClass"><a href="/Activity7/index.html">Activity 7</a></td>
+   <td class="tdClass"><a href="/Activity8/index.html">Activity8</a></td>
+   <td class="tdClass"><a href="/Activity9/index.html">Activity9</a></td>
+   </tr>
+
+ </table>
+
+  </div> 
+
+
+ 
+ 
+  <div>	
+		<h1><center>-----| HIGH END COMPUTER PROCESSORS |-----</center></h1> 
+	        <table class="MainTable">
+		       <tr>
+				   <th class="thClass" colspan="2">INTEL CORE i9</th>
+   		       </tr>
+   		       <tr>
+				 <td class="a">A family of 64-bit x86 CPUs with up to 18 cores from Intel. Introduced in 2017, the Core i9 became the top model in the Core "i" series. Also part of the Intel Core X-series brand, the first i9 CPU (7900x) is based on 14 nm process technology and the Skylake-X microarchitecture. It features four channels of DDR4 RAM and 44 lanes of PCI Express (compared with 28 in the i7). Designed for high-performance computing and gaming, the 3.3 GHz i9 chip can be overclocked to 4.5 Ghz.</td>
+				 <td class="a"><img src="/Activity6/img/intel.png" alt="INTEL CORE i9" style="width:350px;height:350px;"></td>
+   		       </tr>
+		   </table>	
+	       <table class="MainTable">
+	           <tr>
+		          <th class="thClass" colspan="2">AMD RYZEN 9</th>
+   	          </tr>
+   		      <tr>
+		          <td class="a">A family of high-performance 64-bit dodeca-core x86 and hexadec microprocessors introduced by AMD in 2019. Ryzen 9 is based on the Zen 2 microarchitecture and is manufactured on TSMC's 7 nm process. Ryzen 9 is marketed toward the high-end enthusiasts desktop market offering the highest level of performance. The Ryzen 9 is positioned against Intel's high-end Core i9 processors, offering competitive and greater performance at lower or similar prices.</td>
+			      <td class="a"><img src="/Activity6/img/amdr.png" alt="AMD RYZEN 9" style="width:350px;height:350px;"></td>
+   		      </tr>
+	       </table>
+        	
+	  <p style="margin:50px"><mark>Developed by: Mark Anthony D. Diaz BSIT-2G || My GitHub ID: GEeksNIUS</mark></p>
+		
+	</div> 
+	
+	 
+  </body>
+</html>
